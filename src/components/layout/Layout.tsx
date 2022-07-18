@@ -1,17 +1,17 @@
-import { Box, Container, HStack, IconButton, Text } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 
 import { Outlet } from "react-router-dom";
 import Header from "src/components/organisms/Header/Header";
 
 const Layout = () => {
   return (
-    <Box>
+    <Box bgColor="#F3F3F3" minH="100vh">
       <Header />
 
-      <Box bgColor="#F3F3F3" minHeight="50vh">
-        <Container>
+      <Box pt={16} pb={4}>
+        <Box maxW="1340px" m="auto">
           <Outlet />
-        </Container>
+        </Box>
       </Box>
     </Box>
   );

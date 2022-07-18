@@ -1,0 +1,76 @@
+{
+  "users": [
+    {
+      "permissions": [
+        {
+          "isActive": true,
+          "rules": [
+            {
+              "isActive": true,
+              "name": "permission1"
+            },
+            {
+              "isActive": true,
+              "name": "permission2"
+            },
+            {
+              "isActive": false,
+              "name": "permission3"
+            }
+          ]
+        },
+        {
+          "isActive": true,
+          "rules": [
+            {
+              "isActive": true,
+              "name": "permission1"
+            }
+          ]
+        }
+      ],
+      "firstName": "TestFirstName",
+      "lastName": "testLastName",
+      "email": "test@test.com",
+      "role": "admin",
+      "status": "active",
+      "id": 1
+    },
+    {
+      "permissions": [
+        {
+          "isActive": true,
+          "rules": [
+            {
+              "isActive": true,
+              "name": "permission1"
+            },
+            {
+              "isActive": true,
+              "name": "permission2"
+            },
+            {
+              "isActive": false,
+              "name": "permission3"
+            }
+          ]
+        },
+        {
+          "isActive": true,
+          "rules": [
+            {
+              "isActive": true,
+              "name": "permission1"
+            }
+          ]
+        }
+      ],
+      "firstName": "22222",
+      "lastName": "2222",
+      "email": "2222",
+      "role": "user",
+      "status": "active",
+      "id": 2
+    }
+  ]
+}

@@ -13,7 +13,7 @@ export const Routes = () => (
   <Router>
     <Route element={<Layout />}>
       <Route
-        path={"users"}
+        path={routes.HOME_PATH}
         element={
           <Suspense fallback={<Loader message="User List Loading..." />}>
             <UserList />

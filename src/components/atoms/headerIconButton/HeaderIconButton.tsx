@@ -11,8 +11,8 @@ const HeaderIconButton: FC<HeaderIconButtonProps> = ({ icon, bgColor }) => {
     <IconButton
       pos="absolute"
       bottom="0"
-      transform="translateY(50%)"
-      left="5%"
+      transform="translate(-100%, 50%)"
+      left={{ base: "100px", md: "50px", lg: "0px" }}
       bgColor={bgColor}
       aria-label="Call Segun"
       borderRadius="100%"
